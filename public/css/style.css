@@ -5,26 +5,11 @@ footer{
 	padding-top: 10px;
 }
 
-.row{
-	/* margin:0;
-	margin-bottom: 0px; */
-}
-
-.container .row {
-	/* margin-left: 0;
-	margin-right: 0; */
-}
-
 #logoimage {
 	width: 100%;
 	height: 250px;
 	width: 250px;
 	border-radius: 50%;
-}
-
-.container {
-	/* width: 100%;
-	margin:0; */
 }
 
 #artist {
@@ -33,6 +18,10 @@ footer{
 .artistimg {
 	height: 300px;
 	width: 250px;
+}
+
+.contact-section{
+	margin-bottom: 0px;
 }
 
 

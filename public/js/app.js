@@ -1,24 +1,13 @@
 $(document).ready(function() {
-	$('.carousel').carousel({
-		padding:30,
-	});
-	$('.parallax').parallax();
-	$(".button-collapse").sideNav();
-	$('.modal').modal();
 
-
-
-
-	$('#next').on('click', function(){
-		$('.carousel').carousel('next');
-	})
-
-	$('#back').on('click', function(){
-		$('.carousel').carousel('prev');
-	})
+	    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'LnStakeontheworld',
+        clientId: '0386cd4fffd14d5296066d07c0fcde4f'
+    });
+    feed.run();
 
 });
 
 
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
  
