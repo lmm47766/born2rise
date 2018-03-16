@@ -6,36 +6,41 @@ footer{
 }
 
 .row{
-	margin:0;
-	margin-bottom: 0px;
+	/* margin:0;
+	margin-bottom: 0px; */
 }
 
 .container .row {
-	margin-left: 0;
-	margin-right: 0;
+	/* margin-left: 0;
+	margin-right: 0; */
 }
 
 #logoimage {
+	width: 100%;
 	height: 250px;
 	width: 250px;
 	border-radius: 50%;
 }
 
 .container {
-	width: 100%;
-	margin:0;
+	/* width: 100%;
+	margin:0; */
 }
 
 #artist {
 	border-radius: 50%;
 }
-/*.artistimg {
-	height: 200px;
-	width: 600px;
-}*/
+.artistimg {
+	height: 300px;
+	width: 250px;
+}
 
 
-
+@media(max-width: 768px) {
+	.artistName{
+		font-size: 18px;
+	}
+}
 
 
 
